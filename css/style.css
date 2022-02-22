@@ -5,3 +5,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 0.75rem;
+
+}
+
+a{
+    font-size: 7px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.navbar{
+    position: relative;
+}
+
+ul{
+    position: absolute;
+    left: 89%;
+    top: 30px;
+}
+
+#product_1{
+    background-color: red;
+    height: 100vh;
+}
