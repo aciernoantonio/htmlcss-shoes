@@ -59,3 +59,22 @@ ul{
     height: 100vh;
     position: relative;
 }
+
+#box_2{
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+#box_3{
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+
+#box_3 > .product > h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: green;
+}
